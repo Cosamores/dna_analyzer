@@ -2,12 +2,21 @@
 
 *.pkl
 *.csv
-*.txt
 *.json
+*.png
+*.htm
 
 snp_mapping_data
 snp_mapping_data/*
 data/*
 docs/*
+resultados
+nlp_test_data
+
+dna_interpreter_venv
 dna_venv
+
+
+
 __pycache__
+

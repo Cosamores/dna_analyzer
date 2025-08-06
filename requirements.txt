@@ -1,0 +1,10 @@
+pandas
+httpx
+tqdm
+bs4
+lxml
+python-dotenv
+mwclient
+wikitools
+scikit-learn
+matplotlib
