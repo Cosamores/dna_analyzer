@@ -1,0 +1,13 @@
+.env
+
+*.pkl
+*.csv
+*.txt
+*.json
+
+snp_mapping_data
+snp_mapping_data/*
+data/*
+docs/*
+dna_venv
+__pycache__

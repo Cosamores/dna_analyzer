@@ -1,0 +1,9 @@
+from .env import API_MYVARIANT, CSV_ENTRADA, CSV_SAIDA, CACHE_FILE, URL_SNEDIA
+
+all = [
+    "API_MYVARIANT",
+    "CSV_ENTRADA",
+    "CSV_SAIDA",
+    "CACHE_FILE",
+    "URL_SNEDIA"
+]
