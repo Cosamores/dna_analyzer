@@ -3,15 +3,13 @@ import pandas as pd
 from pathlib import Path
 from tqdm import tqdm
 from config.env import CSV_ENTRADA
-from tools.snp_mapper import consultar_snpedia_completa
+from tools.mapper.scrapper.snp_mapper_web import consultar_snpedia_completa
 from utils.json_tools import snp_ja_processado, salvar_json_snp
 
 # ====== CONFIGURAÇÕES ======
 
 
-PASTA_SAIDA = Path("resultados/snp_mapping_data") / pd.Timestamp.now().strftime(
-    "%Y-%m-%d_%H-%M-%S"
-)
+PASTA_SAIDA = Path("resultados/snps_mapeados") / f"web_{pd.Timestamp.now().strftime('%Y-%m-%d_%H-%M-%S')}"
 PASTA_SAIDA.mkdir(parents=True, exist_ok=True)
 
 # ====== EXECUÇÃO PRINCIPAL ======

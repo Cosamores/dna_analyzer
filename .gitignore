@@ -6,12 +6,13 @@
 *.png
 *.htm
 
-snp_mapping_data
-snp_mapping_data/*
+
 data/*
 docs/*
-resultados
-nlp_test_data
+analises_risco/*
+relatorios_clusterizados/*
+snp_mapeados/*
+
 
 dna_interpreter_venv
 dna_venv
