@@ -133,9 +133,9 @@ This feature in being tested right now and I can't ensure the current code is fu
 | Arquivo            | Tamanho  | Descrição |
 |--------------------|----------|-----------|
 |GCF_000001405.40.gz | ~29.5 GB |Arquivo VCF compactado contendo todos os SNPs anotados do genoma humano da referência GRCh38.p14 |
-| GCF_000001405.40.gz.tbi	| ~3.14 GB | Arquivo de índice tabix, que permite acessar rapidamente regiões específicas do VCF |
+| GCF_000001405.40.gz.tbi| ~3.14 GB | Arquivo de índice tabix, que permite acessar rapidamente regiões específicas do VCF |
 
-4. O arquivo mais importante a ser baixado é o GCF_000001405.40.gz, que possui quase 30GB, então considere isso ao realizar este passo.
+4. O arquivo mais importante a ser baixado é o GCF_000001405.40.gz, que possui quase 30GB, então considere este requisito de armazenamento ao realizar este passo.
 
 5. Agora basta adicionar os caminhos de input e output no mapper e rodar a feramenta.
 
